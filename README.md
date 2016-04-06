@@ -14,39 +14,39 @@ react-native run-ios
 
 ### Badge
 
-![Badge](/screenshots/badge.png?raw=true)
+<img src="/screenshots/badge.png?raw=true" width="375" height="667" alt="Badge">
 
 ### Buttons
 
-![Buttons](/screenshots/buttons.png?raw=true)
+<img src="/screenshots/buttons.png?raw=true" width="375" height="667" alt="Buttons">
 
 ### Cards
 
-![Cards](/screenshots/cards.png?raw=true)
+<img src="/screenshots/cards.png?raw=true" width="375" height="667" alt="Cards">
 
 ### Icons
 
-![Icons](/screenshots/icons.png?raw=true)
+<img src="/screenshots/icons.png?raw=true" width="375" height="667" alt="Icons">
 
 ### Lists
 
-![Lists](/screenshots/lists.png?raw=true)
+<img src="/screenshots/lists.png?raw=true" width="375" height="667" alt="Lists">
 
 ### Range
 
-![Range](/screenshots/range.png?raw=true)
+<img src="/screenshots/range.png?raw=true" width="375" height="667" alt="Range">
 
 ### Toggle
 
-![Toggle](/screenshots/toggle.png?raw=true)
+<img src="/screenshots/toggle.png?raw=true" width="375" height="667" alt="Toggle">
 
 ### Toolbars
 
-![Toolbars](/screenshots/toolbars.png?raw=true)
+<img src="/screenshots/toolbars.png?raw=true" width="375" height="667" alt="Toolbars">
 
 ### Typography
 
-![Typography](/screenshots/typography.png?raw=true)
+<img src="/screenshots/typography.png?raw=true" width="375" height="667" alt="Typography">
 
 ## Contribute
 
