@@ -1,6 +1,6 @@
 # Carbon Native Kitchen Sink
 
-**A kitchen sink app of Carbon Native UI components for building React Native apps**
+**A kitchen sink app of [Carbon Native](https://github.com/carbon-native/carbon-native) UI components for building React Native apps**
 
 ## Get Started
 
