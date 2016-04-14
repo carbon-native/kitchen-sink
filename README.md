@@ -14,39 +14,39 @@ react-native run-ios
 
 ### Badge
 
-<img src="/screenshots/badge.png?raw=true" width="375" height="667" alt="Badge">
+<img src="/screenshots/badge.png?raw=true" width="375" height="auto" alt="Badge">
 
 ### Buttons
 
-<img src="/screenshots/buttons.png?raw=true" width="375" height="667" alt="Buttons">
+<img src="/screenshots/buttons.png?raw=true" width="375" height="auto" alt="Buttons">
 
 ### Cards
 
-<img src="/screenshots/cards.png?raw=true" width="375" height="667" alt="Cards">
+<img src="/screenshots/cards.png?raw=true" width="375" height="auto" alt="Cards">
 
 ### Icons
 
-<img src="/screenshots/icons.png?raw=true" width="375" height="667" alt="Icons">
+<img src="/screenshots/icons.png?raw=true" width="375" height="auto" alt="Icons">
 
 ### Lists
 
-<img src="/screenshots/lists.png?raw=true" width="375" height="667" alt="Lists">
+<img src="/screenshots/lists.png?raw=true" width="375" height="auto" alt="Lists">
 
 ### Range
 
-<img src="/screenshots/range.png?raw=true" width="375" height="667" alt="Range">
+<img src="/screenshots/range.png?raw=true" width="375" height="auto" alt="Range">
 
 ### Toggle
 
-<img src="/screenshots/toggle.png?raw=true" width="375" height="667" alt="Toggle">
+<img src="/screenshots/toggle.png?raw=true" width="375" height="auto" alt="Toggle">
 
 ### Toolbars
 
-<img src="/screenshots/toolbars.png?raw=true" width="375" height="667" alt="Toolbars">
+<img src="/screenshots/toolbars.png?raw=true" width="375" height="auto" alt="Toolbars">
 
 ### Typography
 
-<img src="/screenshots/typography.png?raw=true" width="375" height="667" alt="Typography">
+<img src="/screenshots/typography.png?raw=true" width="375" height="auto" alt="Typography">
 
 ## Contribute
 
