@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
   },
 });
 
-export default function AlertsDemo() {
+export default function IconsDemo() {
   return (
     <Content style={cs.padding}>
       <View style={styles.row}>
