@@ -7,8 +7,8 @@
 ```
 git clone https://github.com/carbon-native/kitchen-sink.git
 npm install
-react-native run-ios
 rnpm link
+react-native run-ios
 ```
 
 ## Components
