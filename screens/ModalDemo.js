@@ -1,5 +1,8 @@
 import React, {
   Component,
+} from 'react';
+
+import {
   Modal,
   StyleSheet,
 } from 'react-native';

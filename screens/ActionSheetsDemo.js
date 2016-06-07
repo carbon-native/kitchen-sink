@@ -1,5 +1,8 @@
 import React, {
   Component,
+} from 'react';
+
+import {
   ActionSheetIOS,
   StyleSheet,
   Text,
