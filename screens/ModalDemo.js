@@ -28,7 +28,7 @@ export default class ModalDemo extends Component {
     this.state = {
       modalVisible: false,
       transparent: false,
-      animated: true,
+      animationType: 'slide',
     };
     this.toggleModal = this.toggleModal.bind(this);
   }
@@ -46,7 +46,7 @@ export default class ModalDemo extends Component {
           onPress={this.toggleModal}
         />
         <Modal
-          animated={this.state.animated}
+          animationType={this.state.animationType}
           transparent={this.state.transparent}
           visible={this.state.modalVisible}
         >
