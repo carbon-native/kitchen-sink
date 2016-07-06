@@ -16,7 +16,6 @@ import {
   ItemIcon,
 } from 'carbon-native';
 
-import ActionSheetsDemo from '../screens/ActionSheetsDemo';
 import AlertsDemo from '../screens/AlertsDemo';
 import BadgesDemo from '../screens/BadgesDemo';
 import ButtonsDemo from '../screens/ButtonsDemo';
@@ -51,11 +50,6 @@ export default class MainMenu extends Component {
 
   render() {
     const demos = [
-      {
-        name: 'Action Sheets',
-        screen: ActionSheetsDemo,
-        icon: 'caret-square-o-up',
-      },
       {
         name: 'Alerts',
         screen: AlertsDemo,
