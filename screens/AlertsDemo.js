@@ -23,7 +23,7 @@ const confirmMessage = 'Do you agree to build something awesome with Carbon Nati
 
 export default function AlertsDemo() {
   return (
-    <Content style={cs.padding}>
+    <Content padding>
       <SimpleAlertExampleBlock />
       <PromptOptions />
     </Content>

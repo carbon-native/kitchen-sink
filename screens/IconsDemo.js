@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
 
 export default function IconsDemo() {
   return (
-    <Content style={cs.padding}>
+    <Content padding>
       <View style={styles.row}>
         <Icon name="heart" size={24} color="#333" style={[cs.container, cs.textCenter]} />
         <Icon name="th" size={24} color="#333" style={[cs.container, cs.textCenter]} />

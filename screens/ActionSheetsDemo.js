@@ -134,7 +134,7 @@ ShareActionSheetExample.propTypes = propTypes;
 
 export default function ActionSheetsDemo() {
   return (
-    <Content style={cs.padding}>
+    <Content padding>
       <ActionSheetExample />
       <ShareActionSheetExample url="http://facebook.github.io/react-native/" />
     </Content>

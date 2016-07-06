@@ -19,7 +19,7 @@ const cs = StyleSheet.create(carbonStyles);
 
 export default function TypographyDemo() {
   return (
-    <Content style={cs.padding}>
+    <Content padding>
       <H1>I'm an H1!</H1>
       <H2>I'm an H2!</H2>
       <H3>I'm an H3!</H3>
