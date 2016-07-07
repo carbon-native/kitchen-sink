@@ -1,1 +1,1 @@
-{ extends: [airbnb], }
+{ extends: [airbnb], plugins: [jsx-a11y], }
