@@ -4,11 +4,22 @@
 
 ## Get Started
 
+## iOS
+
 ```
 git clone https://github.com/carbon-native/kitchen-sink.git
 npm install
 rnpm link
 react-native run-ios
+```
+
+## Android
+
+```
+git clone https://github.com/carbon-native/kitchen-sink.git
+npm install
+rnpm link
+react-native run-android
 ```
 
 ## Components

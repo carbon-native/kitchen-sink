@@ -3,6 +3,7 @@ import React, {
 } from 'react';
 
 import {
+  Platform,
   StyleSheet,
   View,
   Text,
@@ -77,6 +78,9 @@ class PromptOptions extends Component {
   }
 
   render() {
+    if (Platform.OS !== 'ios') {
+      return null;
+    }
     return (
       <View>
         <View style={cs.marginBottom}>

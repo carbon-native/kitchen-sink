@@ -49,6 +49,7 @@ export default class ModalDemo extends Component {
           animationType={this.state.animationType}
           transparent={this.state.transparent}
           visible={this.state.modalVisible}
+          onRequestClose={() => {}}
         >
           <Toolbar header color="primary">
             <ToolbarTitle color="light">Look at Me</ToolbarTitle>
