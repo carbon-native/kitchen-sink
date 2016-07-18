@@ -5,13 +5,13 @@ import {
   StyleSheet,
   Navigator,
   View,
-  Text,
   TouchableOpacity,
   StatusBar,
 } from 'react-native';
 
 import {
   carbonStyles,
+  ToolbarTitle,
 } from 'carbon-native';
 
 import MainMenu from './screens/MainMenu';
@@ -27,11 +27,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
   },
-  navbarTitle: {
-    fontSize: 20,
-    fontWeight: '600',
-    color: '#fff',
-  },
   navbarBackButton: {
     paddingHorizontal: 10,
     paddingVertical: 15,
@@ -44,21 +39,23 @@ function KitchenSink() {
       <StatusBar backgroundColor="#262626" />
       <Navigator
         style={cs.container}
-        sceneStyle={{ paddingTop: 56 }}
+        sceneStyle={{
+          paddingTop: Navigator.NavigationBar.Styles.General.TotalNavHeight,
+        }}
         initialRoute={{
           component: MainMenu,
           title: 'Kitchen Sink',
           backButtonTitle: 'Back',
         }}
+        configureScene={() =>
+          Navigator.SceneConfigs.FloatFromBottom
+        }
         renderScene={(route, navigator) => {
           if (route.component) {
             return React.createElement(route.component, { navigator });
           }
           return null;
         }}
-        configureScene={() =>
-          Navigator.SceneConfigs.FloatFromBottom
-        }
         navigationBar={
           <Navigator.NavigationBar
             style={styles.navbar}
@@ -79,9 +76,9 @@ function KitchenSink() {
               RightButton: () => null,
               Title: (route) => (
                 <View style={styles.navbarTitleWrap}>
-                  <Text style={styles.navbarTitle}>
+                  <ToolbarTitle color="light">
                     {route.title}
-                  </Text>
+                  </ToolbarTitle>
                 </View>
               ),
             }}
