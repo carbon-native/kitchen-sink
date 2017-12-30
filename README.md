@@ -2,6 +2,10 @@
 
 **A kitchen sink app of [Carbon Native](https://github.com/carbon-native/carbon-native) UI components for building React Native apps**
 
+## Deprecation notice
+
+:rotating_light: This app is now deprecated. A newer version of this app is inlcuded in the [Carbon Native repo](https://github.com/carbon-native/carbon-native). :rotating_light:
+
 ## Get Started
 
 ## iOS
